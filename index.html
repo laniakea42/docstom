@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Doctor stom</title>
+	<link rel="stylesheet" href="css/libs.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/adaptive.css">
+	<link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+	<header><!-- header -->
+		<a href="index.html" class="logo"><img src="img/logo.png" alt="logo"></a><!-- header logo -->
+		<nav class="nav"><!-- header nav -->
+			<ul>
+				<li class="active"><a href="about.html" data-anch>О клинике</a></li>
+				<li class="submenu"> 
+					<a href="services.html" data-anch>Услуги <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+					<div class="submenu__block">
+							<ul class="circle--list">
+								<li><a href="#">Диагностика</a></li>
+								<li><a href="#">Лечение зубов</a></li>
+								<li><a href="#">Лечение десен</a></li>
+								<li><a href="#">Удаление зуба</a></li>
+								<li><a href="#">Имплантация зубов</a></li>
+								<li><a href="#">Протезирование зубов</a></li>
+								<li><a href="#">Реставрация зубов</a></li>
+								<li><a href="#">Базальная имплантация</a></li>
+								<li><a href="#">Отбеливание зубов</a></li>
+							</ul>
+							<ul class="circle--list">
+								<li><a href="#">Профилактический осмотр</a></li>
+								<li><a href="#">Чистка налета и зубного камня</a></li>
+								<li><a href="#">Детская стоматология</a></li>
+								<li><a href="#">Удаление зуба</a></li>
+								<li><a href="#">Имплантация зубов</a></li>
+								<li><a href="#">Протезирование зубов</a></li>
+								<li><a href="#">Реставрация зубов</a></li>
+								<li><a href="#">Базальная имплантация</a></li>
+								<li><a href="#">Отбеливание зубов</a></li>
+							</ul>
+					</div>
+				</li>
+				<li><a href="price.html" data-anch>Цены</a></li>
+				<li><a href="doctors.html" data-anch>Врачи</a></li>
+				<li><a href="reviews.html" data-anch>Отзывы</a></li>
+				<li><a href="news.html" data-anch>Работы</a></li>
+				<li><a href="news.html" data-anch>Акции</a></li>
+				<li><a href="news.html" data-anch>Пациентам</a></li>
+				<li><a href="faq.html" data-anch>Вопрос-ответ</a></li>
+				<li><a href="contacts.html" data-anch>Контакты</a></li>
+			</ul>
+		</nav><!-- header nav -->
+		<div class="header__down">
+			<div class="header__row phones">
+				<ul>
+					<li class="col--phone"><a href="tel:+7 (707) 237-95-85">+7 (707) 237-95-85</a></li>
+					<li class="col--phone"><a href="tel:+7 (776) 237-95-85">+7 (776) 237-95-85</a></li>
+				</ul>
+				<a href="#" class="close"></a>
+			</div>
+			<div class="header__row socials">
+				<ul>
+					<li><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					<li><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="#" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+		</div>
+		<a href="#" class="nav--btn">
+			<span></span>
+			<span></span>
+			<span></span>
+		</a>
+		<a href="#" class="phone--btn"></a>
+	</header><!-- header -->
+	<div class="preload">
+		<div class="sk-double-bounce">
+			<div class="sk-child sk-double-bounce-1"></div>
+			<div class="sk-child sk-double-bounce-2"></div>
+		</div>
+	</div>
+	<div class="wrapper"><!-- main wrapper -->
+		<div id="modal--finish" class="modal">
+			<div class="modal__layer"></div>
+			<div class="modal__block">
+				<a href="#" class="close"></a>
+				<h4>Ваша заявка успешно отправлена!</h4>
+			</div>
+		</div>
+		<section class="cts__block bg" id="section1"><!-- main slider -->
+
+			<div class="slider arr dot i-1-slider">
+				<div>
+					<div class="slider__block">
+						<span class="slider__title">Выравнивание зубов<br>без брекетов</span>
+						<ul class="circle--list">
+							<li>Съемные невидимые для окружающих капы.</li>
+							<li>Без ограничений по приему еды.</li>
+							<li>Прогнозируемый результат</li>
+						</ul>
+						<form action="" class="index-slider-form">
+							<input type="text" class="tel" required placeholder="Ваш номер телефона">
+							<a href="#" class="btn sm-btn open--modal" data-modal="#modal--finish" type="submit">Бесплатная&nbsp;консультация</a>
+						</form>
+					</div>
+					<img src="img/slider1.jpg" alt="img-1">
+				</div>
+				<div>
+					<div class="slider__block">
+						<span class="slider__title">Выравнивание зубов<br>без брекетов</span>
+						<ul class="circle--list">
+							<li>Съемные невидимые для окружающих капы.</li>
+							<li>Без ограничений по приему еды.</li>
+							<li>Прогнозируемый результат</li>
+						</ul>
+						<form action="" class="index-slider-form">
+							<input type="text" class="tel" required placeholder="Ваш номер телефона">
+							<a href="#" class="btn sm-btn" data-modal="#modal--finish" type="submit">Бесплатная&nbsp;консультация</a>
+						</form>
+					</div>
+					<img src="img/slider1.jpg" alt="img-3">
+				</div>
+				<div>
+					<div class="slider__block">
+						<span class="slider__title">Выравнивание зубов<br>без брекетов</span>
+						<ul class="circle--list">
+							<li>Съемные невидимые для окружающих капы.</li>
+							<li>Без ограничений по приему еды.</li>
+							<li>Прогнозируемый результат</li>
+						</ul>
+						<form action="" class="index-slider-form">
+							<input type="text" class="tel" required placeholder="Ваш номер телефона">
+							<a href="#" class="btn sm-btn" data-modal="#modal--finish" type="submit">Бесплатная&nbsp;консультация</a>
+						</form>
+					</div>
+					<img src="img/slider1.jpg" alt="img-4">
+				</div>
+			</div>
+			<div class="slider-progress">
+				<div class="progress"></div>
+			</div>
+			<div class="bg-img top right"><img src="img/img-38.png" alt="img-38"></div>
+		</section><!-- main slider -->
+
+
+		<section class="i-services">
+			<div class="container">
+				<h2 class="center">Наши услуги</h2>
+
+				<div class="flex">
+					<div class="s-list-unit flex">
+						<div class="img-c"><img src="./img/i1.png" alt=""></div>
+						<ul class="s-list-text">
+							<li class="s-l-header">Если зуб болит</li>
+							<li><a href="#">Диагностика</a></li>
+							<li><a href="#">Лечение зубов</a></li>
+							<li><a href="#">Лечение десен</a></li>
+							<li><a href="#">Удаление зуба</a></li>
+						</ul>					
+					</div>
+
+					<div class="s-list-unit flex">
+						<div class="img-c"><img src="./img/i2.png" alt=""></div>
+						<ul class="s-list-text">
+							<li class="s-l-header">Если зуб разрушен или отсутствует</li>
+							<li><a href="#">Имплантация зубов</a></li>
+							<li><a href="#">Протезирование зубов</a></li>
+							<li><a href="#">Реставрация зубов</a></li>
+							<li><a href="#">Базальная имплантация</a></li>
+						</ul>					
+					</div>
+
+					<div class="s-list-unit flex">
+						<div class="img-c"><img src="./img/i3.png" alt=""></div>
+						<ul class="s-list-text">
+							<li class="s-l-header">Чтобы зубы не болели</li>
+							<li><a href="#">Профилактический осмотр</a></li>
+							<li><a href="#">Чистка налеты и зубного камня</a></li>
+						</ul>					
+					</div>
+
+					<div class="s-list-unit flex">
+						<div class="img-c"><img src="./img/i4.png" alt=""></div>
+						<ul class="s-list-text">
+							<li class="s-l-header">Особый уход</li>
+							<li><a href="#">Детская стоматология</a></li>
+							<li><a href="#">Лечение зубов при беременности</a></li>
+						</ul>					
+					</div>
+
+					<div class="s-list-unit flex">
+						<div class="img-c"><img src="./img/i5.png" alt=""></div>
+						<ul class="s-list-text">
+							<li class="s-l-header">Сделать зубы ровными, выровнять прикус</li>
+							<li><a href="#">Брекеты</a></li>
+							<li><a href="#">Элайнеры (без брекетов)</a></li>
+						</ul>					
+					</div>
+
+					<div class="s-list-unit flex">
+						<div class="img-c"><img src="./img/i6.png" alt=""></div>
+						<ul class="s-list-text">
+							<li class="s-l-header">Восстановить форму зубов</li>
+							<li><a href="#">Виниры на зубы</a></li>
+							<li><a href="#">Люминиры на зубы</a></li>
+						</ul>					
+					</div>
+
+					<div class="s-list-unit flex">
+						<div class="img-c"><img src="./img/i7.png" alt=""></div>
+						<ul class="s-list-text">
+							<li class="s-l-header">Сделать зубы белыми</li>
+							<li><a href="#">Отбеливание зубов</a></li>
+						</ul>					
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="i-about about__block">
+			<div class="container flex">
+					<div class="video__block">
+						<img src="./img/i-about.png" alt="">
+						<div class="video__title">
+							Посмотрите видео<br>о нашей клинике
+							<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk&amp;autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0" class="play" data-fancybox="group"></a>
+						</div>
+						<div class="white-sq">
+							<div class="vid-slider">
+								<div class="slider__block">
+									<span class="num">1998</span>
+									<span class="num-descr">год основания клиники</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				<div class="i-about-text">
+					<h2>О клинике</h2>
+					<p class="small-blue">Забота и безупречность - профессиональная стоматология от «Doctor-Stom»</p>
+					<p class="gr16">Стоматологическая клиника «Doctor-Stom» начала свое развитие с июля 1998 года в Алматы, в то время количество стоматологических организаций было много, но только настоящий профессионализм, знания и опыт могли быть гарантией качественного лечения зубов для пациентов. Каждый пациент, который был пролечен в нашей клинике, рекомендовал нас своим друзьям, знакомым и близким. И перед нами встала задача о расширение клиники, так как, количество больных становилось все больше, а принять их мы не могли. В 2007 году мы построили  новую стоматологическую клинику, которая соответствует мировому стандарту, клиника так же находится в Алматы.</p>
+					<p class="gr16">Мы стараемся чтобы стоматология развивалась и помогала людям. Стоматология должна быть доступна - каждому. </p>
+					<a href="about.html" class="more-about">Подробнее <i class="fa fa-chevron-right" aria-hidden="true"></i>
+					</a>
+				</div>
+			</div>
+		</section>
+		
+
+		<section class="i-zamira">
+			<div class="bg bg1">
+				<div class="container">
+					<div class="reg__block">
+						<div class="col">
+							<h2 class="main-h white-h">Замира Амержан</h2>
+							<p class="small-white">Генеральный директор сети стоматологических клиник «Doctor-Stom»</p>
+				<p class="z-white">Мы расскажем вам все о каждом вашем зубе и о том, какое лечение нужно. Наши пациенты — это люди, которые ценят профессионализм и качество сервиса и не готовы переплачивать за излишества.</p>
+				<button class="btn sm-btn open--modal" data-modal="#modal--dir">Написать директору</button>
+						</div>
+					</div>
+				</div>
+				<div class="circle-img">
+					<img src="img/radial.png" alt="">
+				</div>
+				<img src="img/img-35.jpg" alt="img-35" class="bg-img f-img left top">
+			</div>
+			<img src="img/i-zamira.png" alt="img-36" class="reg--img wow fadeIn" data-wow-offset="0" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
+		</section>
+
+		<div id="modal--dir" class="modal modal--leave-rev modal--dir">
+			<div class="modal__layer"></div>
+			<div class="modal__block">
+				<a href="#" class="close"></a>
+				<h4>Написать директору</h4>
+				<form action="" class="cts-page-form">
+          <div class="form-g">
+            <input type="text" id="name" required="" class="ctf-input">
+            <label for="name" class="redstar">Ваше имя <span style="color:red">*</span></label>
+          </div>
+
+          <div class="form-g">
+            <input type="text" id="phone" required="" class="ctf-input tel" im-insert="true">
+            <label for="phone" class="redstar">Номер телефона <span style="color:red">*</span></label>
+          </div>
+          <div class="form-g">
+            <input type="text" id="mail" class="ctf-input">
+            <label for="mail" class="redstar">Электронная почта</label>
+          </div>
+          <textarea type="text" placeholder="Вопрос"></textarea>
+          <div class="g-recaptcha"><div style="width: 304px; height: 78px;"><div><iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Le_fb0UAAAAACrlSoep_x3QphJ5Ly6BEy_KTfck&amp;co=aHR0cHM6Ly93d3cubnVyYnVzLmt6OjQ0Mw..&amp;hl=ru&amp;v=2diXFiiA9NsPIBTU15LG6xPf&amp;size=normal&amp;cb=ozz2wjvunz3k" width="304" height="78" role="presentation" name="a-uczhqqucr0sm" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div></div>
+          <div class="form__down">
+            <button type="submit" class="btn sm-btn open--modal" data-modal="#modal--finished">Отправить</button>
+            <p>Нажимая на кнопку отправить вы соглашаетесь на обработку персональных данных</p>
+          </div>
+        </form>
+			</div>
+		</div>
+
+
+
+		<section class="docs">
+			<div class="container">
+				<h2 class="main-h center">Наши врачи</h2>
+				<div class="c-for-progressbar">
+					<div class="arr dot docs-slider">
+						<a class="doc-card" href="doc-card.html">
+							<div class="img-c"><img src="./img/d1.png" alt=""></div>
+							<span class="name">Баталов Батуржан Садикович</span>
+							<span class="job">Стоматолог-имплантолог</span>
+						</a>
+						<a class="doc-card" href="doc-card.html">
+							<div class="img-c"><img src="./img/d2.png" alt=""></div>
+							<span class="name">Баталов Батуржан Садикович</span>
+							<span class="job">Стоматолог-имплантолог</span>
+						</a>
+						<a class="doc-card" href="doc-card.html">
+							<div class="img-c"><img src="./img/d3.png" alt=""></div>
+							<span class="name">Баталов Батуржан Садикович</span>
+							<span class="job">Стоматолог-имплантолог</span>
+						</a>
+						<a class="doc-card" href="doc-card.html">
+							<div class="img-c"><img src="./img/d4.png" alt=""></div>
+							<span class="name">Баталов Батуржан Садикович</span>
+							<span class="job">Стоматолог-имплантолог</span>
+						</a>
+						<a class="doc-card" href="#">
+							<div class="img-c"><img src="./img/d2.png" alt=""></div>
+							<span class="name">Баталов Батуржан Садикович</span>
+							<span class="job">Стоматолог-имплантолог</span>
+						</a>
+						<a class="doc-card" href="#">
+							<div class="img-c"><img src="./img/d3.png" alt=""></div>
+							<span class="name">Баталов Батуржан Садикович</span>
+							<span class="job">Стоматолог-имплантолог</span>
+						</a>
+						<a class="doc-card" href="#">
+							<div class="img-c"><img src="./img/d4.png" alt=""></div>
+							<span class="name">Баталов Батуржан Садикович</span>
+							<span class="job">Стоматолог-имплантолог</span>
+						</a>					
+					</div>
+					<div class="slider-progress">
+						<div class="progress"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="techs">
+			<div class="container flex">
+				<div class="left">
+					<div class="techs-slider slider arr dot">
+						<img src="./img/i-portf.jpg" alt="">
+						<img src="./img/i-portf.jpg" alt="">
+						<img src="./img/i-portf.jpg" alt="">
+					</div>
+					<div class="slider-progress">
+						<div class="progress"></div>
+					</div>
+				</div>
+				<div class="right techs-text">
+					<h2 class="main-h">Применяем лучшие мировые технологии</h2>
+					<p class="gr16">Стоматологи и зубные техники «Doctor-Stom» повышают уровень квалификации в ведущих стоматологических центрах Европы и внедряют передовые успешные методы лечения в повседневную практику.</p>
+					<p class="gr16">Стоматологи и зубные техники «Doctor-Stom» повышают уровень квалификации в ведущих стоматологических центрах Европы и внедряют передовые успешные методы лечения в повседневную практику.</p>
+					<a href="#" class="more-about">Подробнее <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+				</div>
+			</div>
+			<div class="container flex">
+				<div class="flex">
+					<div class="img-c"><img src="./img/plus.png" alt=""></div>
+					<p class="gr16">Часто выступаем спикерами на стоматологических форумах и обмениваемся знаниями с коллегами на научных конференциях, конгрессах, семинарах и наши врачи постоянно проходят обучение у лучших врачей Израиля, США, Европы, России</p>
+				</div>
+				<div class="flex">
+					<div class="img-c"><img src="./img/plus.png" alt=""></div>
+					<p class="gr16">Стоматологи «Doctor-Stom» повышают уровень квалификации в ведущих научных и стоматологических центрах Европы, Израиля и России и внедряют передовые успешные методы лечения в повседневную практику</p>
+				</div>
+				<div class="flex">
+					<div class="img-c"><img src="./img/plus.png" alt=""></div>
+					<p class="gr16">Врачи нашей клиники выступают спикерами на стоматологических форумах и обмениваемся знаниями с коллегами на научных конференциях, конгрессах, семинарах, что позволяет нам решать задачи любой степени сложности и быть для вас лучшими.</p>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="common-bg">
+		<div class="d3tour">
+			<div class="container flex">
+				<div class="img-c"><img src="./img/3d.png" alt="" class="bg-3d"><a href="#"><img src="./img/3d-box.png" class="d3-box" alt="">3D тур</a></div>
+				<div class="d3t-text">
+					<h2 class="main-h">Оцените интерьер клиники онлайн перед посещением</h2>
+					<img src="./img/3d-arr.png" alt="" class="d3-arr">
+				</div>
+			</div>
+		</div>
+
+
+		<div class="reviews" id="section11"><!-- main reviews -->
+			<div class="container">
+				<h2 class="center">Отзывы наших пациентов</h2>
+				<div class="reviews__block">
+					<div class="reviews__item wow fadeInUp" data-wow-offset="0" data-wow-delay="0.2s">
+						<div class="reviews__img clip-polygon">
+							<img src="./img/rew1.png" alt="img-32" class="clip-polygon">
+							<svg viewBox="0 0 459 282" height="100%" width="100%" preserveAspectRatio="none" class='wtf'>
+								<defs>
+									<clipPath id="clip-svg-demo" clipPathUnits="objectBoundingBox"> <polygon points="0 .9, .12 .9, .12 1, .19 .9, 1 .9, 1 0, 0 0"/>
+									</clipPath>
+									<pattern id="img1" patternUnits="userSpaceOnUse" width="100%" height="260">
+									  <image xlink:href="/img/rew1.png" x="0" y="0" width="100%" height="260" />
+									</pattern>
+								  </defs>
+							</svg>
+						</div>
+						<h6 class="rew-auth">Видеоотзыв Лейлы</h6>
+						<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk&amp;autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0" class="play" data-fancybox="group2"></a>
+					</div>
+					<div class="reviews__item wow fadeInUp" data-wow-offset="0" data-wow-delay="0.4s">
+						<div class="reviews__img clip-polygon">
+							<img src="./img/rew2.png" alt="img-32" class="clip-polygon">
+							<svg viewBox="0 0 459 282" height="100%" width="100%" preserveAspectRatio="none" class='wtf'>
+								<defs>
+									<clipPath id="clip-svg-demo" clipPathUnits="objectBoundingBox"> <polygon points="0 .9, .12 .9, .12 1, .19 .9, 1 .9, 1 0, 0 0"/>
+									</clipPath>
+									<pattern id="img2" patternUnits="userSpaceOnUse" width="100%" height="260">
+									  <image xlink:href="/img/rew2.png" x="0" y="0" width="100%" height="260" />
+									</pattern>
+								  </defs>
+							</svg>
+						</div>
+						<h6 class="rew-auth">Видеоотзыв нашей пациентки</h6>
+						<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk&amp;autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0" class="play" data-fancybox="group2"></a>	
+					</div>				
+
+					<div class="reviews__item wow fadeInUp" data-wow-offset="0" data-wow-delay="0.4s">
+						<div class="reviews__img clip-polygon">
+							<img src="./img/rew3.png" alt="img-32" class="clip-polygon">
+							<svg viewBox="0 0 459 282" height="100%" width="100%" preserveAspectRatio="none" class='wtf'>
+								<defs>
+									<clipPath id="clip-svg-demo" clipPathUnits="objectBoundingBox"> <polygon points="0 .9, .12 .9, .12 1, .19 .9, 1 .9, 1 0, 0 0"/>
+									</clipPath>
+									<pattern id="img2" patternUnits="userSpaceOnUse" width="100%" height="260">
+										<image xlink:href="/img/rew3.png" x="0" y="0" width="100%" height="260" />
+									</pattern>
+									</defs>
+							</svg>
+						</div>
+						<h6 class="rew-auth">Видеоотзыв Айдоса Смаилова</h6>
+						<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk&amp;autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0" class="play" data-fancybox="group2"></a>	
+					</div>
+				</div>
+			</div>
+		</div><!-- main reviews -->
+	</section>
+
+		<section class="reg" id="section12"><!-- main reg -->
+			<div class="bg bg1">
+				<div class="container">
+					<div class="reg__block">
+						<div class="col">
+							<h2>Записаться на консультацию </h2>
+							<p>Врач осмотрит вас и поставит диагноз. Вы получите план лечения со сроками <br>
+								и стоимостью. Если устроит, сможете сразу начать лечение.<br>
+								Мы свяжемся с вами, подберем удобную клинику и подходящего врача.</p>
+							<div class="consult__down">
+								<ul>
+									<li><span class="icon"><i class="fa fa-clock-o" aria-hidden="true"></i></span>до 20 минут</li>
+									<li><span class="icon">₸</span>Бесплатно</li>
+								</ul>
+							</div>
+							<p>* бонус по промокоду ____ скидка 50% на компьютерную томографию</p>
+							<form>
+								<input type="text" placeholder="Ваше имя *" required="required">
+								<input type="text" class="tel" placeholder="Номер телефон *" required="required">
+								<div class="form__down">
+									<button type="submit" class="btn sm-btn open--modal" data-modal="#modal--finish">Отправить</button>
+									<p>Нажимая на кнопку отправить вы соглашаетесь на обработку персональных данных</p>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="circle-img"><img src="img/radial.png" alt=""></div>
+				<img src="img/img-35.jpg" alt="img-35" class="bg-img f-img left top">
+			</div>
+			<img src="img/img-36.png" alt="img-36" class="reg--img wow fadeIn" data-wow-offset="0" data-wow-delay="0.2s">
+		</section><!-- main reg -->
+		<a href="https://api.whatsapp.com/send?phone=77072379585" class="what" target="_blank"><img src="img/whats.png" alt="whats"></a>
+		<div id="modal--consult" class="modal">
+			<div class="modal__layer"></div>
+			<div class="modal__block">
+				<a href="#" class="close"></a>
+				<h4>Заполните поля</h4>
+				<form>
+					<input type="text" placeholder="Имя" required="required">
+					<input type="text" class="tel" placeholder="+7 (___) ___-__-__" required="required">
+					<div class="g-recaptcha"><div style="width: 304px; height: 78px;"><div><iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Le_fb0UAAAAACrlSoep_x3QphJ5Ly6BEy_KTfck&amp;co=aHR0cHM6Ly93d3cubnVyYnVzLmt6OjQ0Mw..&amp;hl=ru&amp;v=oqtdXEs9TE9ZUAIhXNz5JBt_&amp;size=normal&amp;cb=dvpikgomvb1h" width="304" height="78" role="presentation" name="a-9jjo321heg9z" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div></div>
+					<button type="submit" class="btn sm-btn open--modal" data-modal="#modal--successfully">Отправить</button>
+				</form>
+			</div>
+		</div>
+		<div id="modal--finish" class="modal">
+			<div class="modal__layer"></div>
+			<div class="modal__block">
+				<a href="#" class="close"></a>
+				<h4>Ваша заявка успешно отправлена!</h4>
+			</div>
+		</div>
+	</div><!-- main wrapper -->
+
+	<footer class="footer">
+		<div class="container flex links-part">
+			<div class="faq__row">
+				<div class="faq__title">
+					<p class="acc-head f-list-heading">Услуги</p>
+					<div class="icon"><div class="gr"></div></div>
+				</div>
+				<div class="acc-body">
+					<div class="flex">
+						<ul class="f-list circle--list">
+							<li><a href="#">Диагностика</a></li>
+							<li><a href="#">Лечение зубов</a></li>
+							<li><a href="#">Лечение десен</a></li>
+							<li><a href="#">Удаление зуба</a></li>
+							<li><a href="#">Имплантация зубов</a></li>
+							<li><a href="#">Протезирование зубов</a></li>
+							<li><a href="#">Реставрация зубов</a></li>
+							<li><a href="#">Базальная имплантация</a></li>
+							<li><a href="#">Отбеливание зубов</a></li>
+						</ul>
+						<ul class="f-list circle--list">
+							<li><a href="#">Профилактический осмотр</a></li>
+							<li><a href="#">Чистка налета и зубного камня</a></li>
+							<li><a href="#">Детская стоматология</a></li>
+							<li><a href="#">Лечение зубов при беременности</a></li>
+							<li><a href="#">Брекеты</a></li>
+							<li><a href="#">Капы</a></li>
+							<li><a href="#">Виниры</a></li>
+							<li><a href="#">Люминиры</a></li>
+							<li><a href="#">Элайнеры</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="faq__row">
+				<div class="faq__title">
+					<p class="acc-head f-list-heading">Клиника</p>
+					<div class="icon"><div class="gr"></div></div>
+				</div>
+				<div class="acc-body">
+					<ul class="f-list unmarked">
+						<li><a href="#">О клинике</a></li>
+						<li><a href="#">Услуги</a></li>
+						<li><a href="#">Цены</a></li>
+						<li><a href="#">Врачи</a></li>
+						<li><a href="#">Отзывы</a></li>
+						<li><a href="#">Работы</a></li>
+						<li><a href="#">Акции</a></li>
+						<li><a href="#">Пациентам</a></li>
+						<li><a href="#">Вопрос-ответ</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="f-col m-hide">
+				<p class="f-list-heading">Услуги</p>
+				<div class="flex">
+					<ul class="f-list circle--list">
+						<li><a href="#">Диагностика</a></li>
+						<li><a href="#">Лечение зубов</a></li>
+						<li><a href="#">Лечение десен</a></li>
+						<li><a href="#">Удаление зуба</a></li>
+						<li><a href="#">Имплантация зубов</a></li>
+						<li><a href="#">Протезирование зубов</a></li>
+						<li><a href="#">Реставрация зубов</a></li>
+						<li><a href="#">Базальная имплантация</a></li>
+						<li><a href="#">Отбеливание зубов</a></li>
+					</ul>
+					<ul class="f-list circle--list">
+						<li><a href="#">Профилактический осмотр</a></li>
+						<li><a href="#">Чистка налета и зубного камня</a></li>
+						<li><a href="#">Детская стоматология</a></li>
+						<li><a href="#">Лечение зубов при беременности</a></li>
+						<li><a href="#">Брекеты</a></li>
+						<li><a href="#">Капы</a></li>
+						<li><a href="#">Виниры</a></li>
+						<li><a href="#">Люминиры</a></li>
+						<li><a href="#">Элайнеры</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="f-col m-hide">
+				<p class="f-list-heading">Клиника</p>
+				<ul class="f-list unmarked">
+					<li><a href="about.html">О клинике</a></li>
+					<li><a href="services.html">Услуги</a></li>
+					<li><a href="price.html">Цены</a></li>
+					<li><a href="doctors.html">Врачи</a></li>
+					<li><a href="reviews.html">Отзывы</a></li>
+					<li><a href="#">Работы</a></li>
+					<li><a href="#">Акции</a></li>
+					<li><a href="#">Пациентам</a></li>
+					<li><a href="faq.html">Вопрос-ответ</a></li>
+					<li><a href="contacts.html">Контакты</a></li>
+				</ul>
+			</div>
+			<div class="f-col f-cts-col">
+				<p class="f-list-heading">Контакты</p>
+				<ul class="f-list unmarked f-cts">
+					<li><i class="fa fa-map-marker" aria-hidden="true"></i><span>г. Алматы, мк-н «Керемет» Дом №6</span></li>
+					<li class="f-phones">
+						<i class="fa fa-phone" aria-hidden="true"></i>
+						<a href="tel:+7 707 237-95-85"><span>+7&nbsp;(707)&nbsp;237-95-85</span></a>
+						<a href="tel:+7 707 237-95-85"><span>+7&nbsp;(707)&nbsp;237-95-85</span></a>
+					</li>
+					<li><i class="fa fa-clock-o" aria-hidden="true"></i><span>Пн-Пт. с 9:00 до 18-30</span></li>
+					<li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:dstom@mail.ru" class="f-mail"><span>dstom@mail.ru</span></a></li>
+				</ul>
+
+				<div class="footer__row socials">
+					<span class="f-list-heading unlined">Мы в соц.сетях</span>
+					<ul>
+						<li><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+		<div class="container copy">
+			<h5>Copyright © 2020 Центр Имплантации в Алматы «Doctor-Stom». All rights reserved</h5>
+			<h6 class="artmedia">
+					<a href="https://artmedia.kz" target="_blank">Создание сайта <img src="img/artmedia.png" alt="artmedia"></a>
+			</h6>
+		</div>
+	</footer>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/libs.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

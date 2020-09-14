@@ -1,0 +1,362 @@
+@media only screen and (min-width : 1690px) {
+    .slider .slick-slide > img {width:100%}
+    .slider {margin-right: 0;}
+    .cts__block  .index-slider-form .btn.sm-btn {margin-top: 0; padding-left: 10px;}
+    .cts__block .slick-slide .slider__block .index-slider-form .tel {width:235px; font-size: 14px; padding-right: 10px;}
+    .cts__block .index-slider-form {width: 580px;}
+    .cts__block .arr .slick-arrow.slick-next {margin-left: calc(50% - 60px); left:50%; right:auto;}
+    .cts__block .arr .slick-arrow.slick-prev {margin-left: calc(50% - 100px); left:50%; right:auto;}
+    .cts__block .slider-progress {margin-left: calc(50% - 400px); left:50%; right:auto;}
+    .cts__block .dot .slick-dots {margin-left: calc(50% - 570px); left:50%; right:auto;}
+    .slider .slick-slide > img {width:100%; height: 100%}
+    .docs .docs-slider .doc-card {margin: 0 15px;}
+}
+
+@media only screen and (max-width : 1690px) {
+    .cts-row {flex-wrap: wrap;}
+    .contacts .f-cts .cts__block {margin-bottom: 10px;}
+    .contacts .f-cts .cts__block, .contacts .f-cts .cts__block a {font-size: 14px;}
+    .partners-block .small-blue, .partners-block .comm {font-size: 16px;line-height: 16px;}
+    .play {width: 55px;height: 55px}
+    .prices-card .btn.sm-btn {font-size: 12px; height: 45px; padding-left: 40px; padding-right: 40px; min-width: 265px;}
+    .about__block .video__block img {
+        width: auto;
+        height: 100%;
+    }
+    .i-about .video__block {flex: 0 0 50%;}
+    .i-zamira .reg--img {width:auto; height: auto; left: auto;}
+    .techs .dot .slick-dots {margin-right: -70px;}
+    .techs .dot .slick-dots {margin-left: calc(50% - 375px); left: 50%; right: auto;}
+    .docs .dot .slick-dots {bottom:53px;}
+    .left .slider-progress {margin-left: calc(50% - 340px); left: 50%; right: auto}
+    .techs .arr .slick-arrow.slick-prev {margin-left: calc(50% - 90px); left: 50%; right: auto}
+    .techs .arr .slick-arrow.slick-next {margin-left: calc(50% - 40px); left: 50%; right: auto}
+    .docs-slider .dot .slick-dots {bottom:53px}
+    .d3tour .img-c>img{height: 100%;}
+    .slider {margin-right: 0;}
+    .cts__block .slick-slide .slider__block {top:50%; transform: translate(-50%, -50%); width: 460px;}
+    .cts__block  .index-slider-form .btn.sm-btn {margin-top: 0; padding-left: 10px;}
+    .cts__block .slick-slide .slider__block .index-slider-form .tel {width:235px; font-size: 14px; padding-right: 10px;}
+    .cts__block .index-slider-form {width: 580px;}
+    .cts__block .arr .slick-arrow.slick-next {margin-left: calc(50% - 50px); left:50%; right:auto;}
+    .cts__block .arr .slick-arrow.slick-prev {margin-left: calc(50% - 90px); left:50%; right:auto;}
+    .cts__block .slider-progress {margin-left: calc(50% - 300px); left:50%; right:auto;}
+    .cts__block .dot .slick-dots {margin-left: calc(50% - 370px); left:50%; right:auto;}
+    .slider .slick-slide > img {width:100%; height: 100%}
+    .docs .docs-slider .doc-card {margin: 0 7.5px;}
+    .docs .docs-slider .doc-card img {width: 100%}
+    .txt-c .bolder20 {font-size: 18px;line-height: 22px;}
+    .n-card .tldr {font-size: 14px;}
+    .n-card {height: 405px !important;}
+    .news-heading .n-cat-item {font-size: 12px;padding: 10px 24px 8px;}
+    .n-card-none .tldr {height: 200px;}
+    .tab-prices .calc-bar .c-1 {padding-left: 55px;}
+    .tab-prices .calc-bar .c-1 p {font-size: 18px; line-height: 25px;}
+    .tab-prices .calc-bar .c-1 p span {font-size: 24px;}
+    .tab-prices .calc-bar  .c-2 p {font-size: 16px;}
+    .reviews-page .btn {margin-right: 0;}
+    .faq-header button.btn.btn-trans {width: 185.5px; padding: 0 2px !important}
+} 
+@media only screen and (max-width : 1564px) {
+    .prices .flex .prices-card {margin: 7.5px; flex: 0 1 30%;}
+    .prices-card .btn.sm-btn {width: 200px !important; min-width: 1px !important; padding-left: 10px !important; padding-right: 10px !important; display: flex; justify-content: center; font-size: 11px;}
+    .tab-prices .calc-bar .c-2 .flex {flex-direction: column; justify-content: space-around; align-items: flex-start;}
+    .tab-prices .calc-bar .c-2 div p {font-size: 14px;}
+    .tab-prices .calc-bar .c-2 {padding-left: 20px; padding-right: 20px;}
+    .tab-prices .calc-bar .c-3 {padding-left: 30px;}
+    .tabs-nav li a {font-size: 18px; padding: 20px 0;}
+    .tabs-nav li {margin: 5px 45px 0 0; padding: 15px 0;}
+    .partners-block .partners-card {flex: 0 1 22%; margin: 5px;}
+}
+
+@media (max-width: 1480px) {
+    .reviews.tab-revs .container .more-about {top: 63px;}
+    .tab-actions, .tab-examples, .tab-articles {margin-bottom: 20px;}
+    .l-anchs .flex-spb, .l-anchs .flex {margin-bottom: 10px !important;}
+    .l-anchs .flex-spb {padding-top:30px !important;}
+}
+@media (max-width: 1440px) {
+    .full-ctnt-width {padding-left: 260px;}
+}
+@media only screen and (max-width : 1386px) {
+    .tab-prices .calc-bar .c-1 .img-c {width: 40px; height: 40px; overflow: hidden;}
+    .tab-prices .calc-bar .c-1 .img-c img {width: 100%}
+    .tab-prices  .calc-bar .btn.sm-btn {padding-top: 18px !important;}
+    .play {width: 45px;height: 45px}
+    .about-page .video__block .video__title {top: 50% !important; right: 79px !important; left: 46%}
+    .cts__block .slider-progress {margin-left: calc(50% - 260px);}
+    .cts__block .dot .slick-dots {margin-left: calc(50% - 325px);}
+    .i-about .video__block .video__title {right: 140px; top: 43.5%;}
+    .i-zamira .reg--img {width:681px;}
+    .i-about .i-about-text {padding-left: 20px;}
+    .i-about .wrapper .container {width: 100vw;}
+    .docs .docs-slider .doc-card {margin: 0 5px;}
+    .i-zamira .reg--img {width: 630px; transform: translate(65px, 5px);}
+    .i-zamira {overflow: hidden;}
+    .d3tour .img-c a {font-size: 25px;}
+    .doctors-page .flex>a {width: 23%;}
+    .dcz-header.i-zamira .reg--img {height: auto;}
+    .faq-header.i-zamira .img-c .reg--img {width: auto; height: 100%;}
+    .faq-header.i-zamira .img-c:after {background: linear-gradient(to right, #fff 26%, transparent 65%);}
+    .news-gallery .n-card {margin: 10px;}
+    .n-card .tldr {height: 110px;}
+    .n-card {height: 350px !important;}
+    .n-card .txt-c {padding: 20px;}
+    .n-card-none .txt-c { padding-top: 90px; }
+    .n-card-full .txt-c {padding: 0 20px;}
+    .about__block .video__block img {width: auto;}
+} 
+
+@media only screen and (max-width : 1280px) {
+    .n-card-none .dr-palegrey {font-size: 12px!important;}
+    .btn.sm-btn {height: 48px;}
+    .cts__block .slick-slide .slider__block {transform: translate(-25%, -50%);}
+    .dcz-header.i-zamira .reg--img {transform: translateX(100px);}
+    .prices .flex .prices-card {margin: 5px; flex: 0 1 29%;}
+    .faq__txt>.faq_price, .stock-container {transform: translateX(-115px);}
+    .i-about-text .more-about {top: 10px}
+} 
+
+@media screen and (max-width: 1200px) {
+    .news-gallery .n-card {flex: 0 1 30.5%;}
+    .prices .flex .prices-card {flex: 0 1 48%;}
+    .arr .slick-arrow.slick-next, .arr .slick-arrow.slick-prev {left: auto; right: 50%}
+    .docs .slider-progress {right:50%; }
+    .docs .dot .slick-dots {transform: translate(-180px, 130px);}
+    .wrapper .container {width: 100vw}
+    .slider .slick-slide > img {max-width: 100%;}
+    .footer .m-faqs {display: block!important;}
+    .f-tofaq {display: none;}
+    .doc-card .name {
+        font-size: 18px;
+        line-height: 25px;
+        width: 100%;
+        margin: 15px auto 5px;
+    }
+    .acc-head {padding-right: 80px;}
+    .dcz-header.i-zamira .reg--img {transform: translateX(200px);}
+    .cts-page-form .form-g label, .cts-page-form .form-g input, .cts-page-form textarea {padding: 15px 15px 18px;}
+    
+}
+
+@media screen and (max-width: 1025px) {
+    .full-ctnt-width {padding-left: 0;}
+    .about-page .advantages__num .col .num {font-size: 40px;}
+    .about-page.about__block .flex {flex-direction: column-reverse;}
+    .about__block .video__block img {width: 100%; height: auto;}
+    .i-about .video__block .video__title {width: 160px; height: 55px;}
+    .certificate-slider {margin: 0; width: auto}
+    .faq_price, .stock-container .action-prev {font-size: 18px;}
+    .prices .flex .prices-card {flex: 0 1 48%;}
+    .news-gallery .flex {padding: 0 0 0 20px;}
+    .news-gallery .n-card {flex: 0 1 31%;}
+    .doctors-page .flex>a .name {font-size: 14px; line-height: 18px; margin: 10px auto 5px;}
+    .doctors-page .flex>a .job {font-size: 12px;}
+    .i-about .flex {flex-direction: column;}
+    .i-about .video__block, .i-about-text {width: 100%}
+    .about__block .video__block img {width: 100%}
+    .i-about .i-about-text {padding-left: 0;}
+    .i-about .video__block .video__title {top: auto; bottom: 300px}
+    .i-about .video__block {margin-bottom: 20px;}
+    .techs .container:first-child {padding: 0; flex-direction: column;}
+    .techs .container:first-child .left, 
+    .techs .container:first-child .right {width: 100%; overflow: hidden;}
+    .techs .container:first-child .left {padding-left: 31px; margin-top: 30px;}
+    .techs .techs-slider .left .slider-progress {width: 150px!important;}
+    .slider-progress {
+        width: 100%!important;
+        left:0!important; right: 0!important; margin: 0!important; transform: translate(0, 0)!important;
+    }
+    .techs .slider:after {display: none;}
+    .techs .dot .slick-dots {margin-left: 0; left: 0; bottom: 0;} 
+    .techs .arr .slick-arrow {bottom: 0;}
+    .techs .container:last-child {align-items: center; flex-direction: column; padding-top: 20px;}
+    .techs .container:last-child .flex {width: 100%;}
+    .techs .container:last-child .img-c {padding-right: 7px;}
+    .techs .container:last-child .img-c img {width: 15px; top: 4px; position: relative}
+    .cts__block .dot .slick-dots {margin-left: 0; left: 0;}
+    .arr .slick-arrow {bottom: 14px}
+    .small-blue, .comm {margin-bottom: 15px;}
+    p {margin-bottom: 15px;}
+    .i-zamira .small-white {padding-bottom: 25px;}
+    .btn.sm-btn {line-height: 14px; padding-top: 19px;}
+    .docs .dot .slick-dots {margin: 0; padding: 0; left: 0; right: auto; transform: translate(0, 0); bottom: -15px;}
+    .docs .arr .slick-arrow {bottom: -25px; left: auto; right:0; margin: 0 !important; transform: translateX(-8px)}
+    .docs .dot .slick-arrow.slick-prev {transform: translateX(-50px);}
+    .docs .slider-progress {right:50%; bottom: -10px}
+    .docs .container {padding-bottom: 40px;}
+    .footer {position: relative; padding-top: 0;}
+    .footer .container .faq__row  {display: block; width: 100%; margin-bottom: 20px;}
+    .m-hide {display: none;}
+    .left-arrs .slider-progress {bottom: 0px}
+    .left-arrs .dot .slick-dots {bottom: -15px;}
+    .left-arrs .arr .slick-arrow.slick-prev {right: 0; margin-left: 0; margin-right: 50px;}
+    .left-arrs .arr .slick-arrow.slick-next {right: 0; margin-left: 0; margin-right: 10px; left: auto;}
+    .arr .slick-arrow {bottom: -20px}
+    .docs-rews .more-about {top: -44px;}
+    .dr-upblock .small-blue, .comm {margin-bottom: 0;}
+    .cts-page-form .form-g label, .cts-page-form .form-g input, .cts-page-form textarea {
+        padding: 10px 18px 18px;
+    }
+}
+@media (max-width:1020px) {
+    .cts-page-form .flex:first-child {flex-direction: column; justify-content: start; align-items: center;}
+    .cts-page-form .flex:first-child>.form-g {flex: 0 0 100%}
+    .cts-page-form .flex:first-child>.form-g {margin: 0; width: 100%}
+}
+@media only screen and (max-width : 900px) {
+    .techs .container:first-child {padding: 0; flex-direction: column;}
+    .techs .container:first-child .left, 
+    .techs .container:first-child .right {width: 100%; overflow: hidden;}
+    .techs .container:first-child .left {padding-left: 31px; margin-top: 30px;}
+    .doctors-page .flex>a { margin: 10px 5px; }
+    .breadcrumbs { padding: 15px 0 0; margin-bottom: 20px; font-size: 14px; }
+    .breadcrumbs ul.breadcrumbs-list { padding-bottom: 10px; }
+    .modal--question .modal__block {width: 600px; padding: 50px!important;}
+    .cts-page-form .form-g label, .cts-page-form .form-g input, .cts-page-form textarea {padding: 10px 15px 18px;}
+    .news-gallery .n-card { flex: 0 1 47%; }
+    .n-cats-row {flex-wrap: wrap;}
+    .n-cats-row a {margin: 5px 0;}
+    .modal--leave-rev .modal__block {width: 100%; padding:20px; height: 90vh;}
+    .modal--leave-rev form textarea {height: 80px;}
+    .modal--leave-rev .g-recaptcha {transform-origin: left;}
+    .about-page-double .flex {flex-direction: column-reverse !important;}
+    .about-page-double .flex .left, .about-page-double .flex  .right {
+        width: 100%; padding: 0;
+    }
+    .wrapper .plain-txt .container, .wrapper .about-page .container  {padding-bottom: 30px;}
+}
+
+@media only screen and (max-width : 800px) {
+    .tab-prices .calc-bar .c-1 {padding-left: 20px;}
+    .tab-prices .calc-bar .c-1 p {padding-left: 5px; font-size: 14px;}
+    .tab-prices .calc-bar .c-1 p span {font-size: 18px;}
+    .tab-prices .calc-bar .c-2 {padding-left: 10px; padding-right: 10px;}
+    .tab-prices .calc-bar .c-2 .fa {font-size: 16px;}
+    .tab-prices .calc-bar .btn.sm-btn {font-size: 12px;}
+    .tab-prices .calc-bar .btn.sm-btn .fa {font-size: 10px;}
+    .tab-descr-down .flex {flex-direction: column;}
+    .tab-descr-down .flex .left, .tab-descr-down .flex .right {width:100% !important; padding-left: 0; padding-right: 0; margin: 10px 0 20px;}
+    .tab-descr-down .flex .right.img-c img {width: 100%; height: auto;}
+    .n-card-none .txt-c { padding-top: 80px; }
+    .news-gallery .cat-pointer {left: 20px; top: 30px;}
+}
+
+@media only screen and (max-width : 768px) {
+    .prices .first-par .flex {padding-left: 15px;}
+    .modal.modal--question .modal__block { width: 500px; }
+    .news-gallery .n-card { flex: 0 1 47%; margin: 7.5px;}
+    .n-card .tldr {height: 110px;}
+    .n-card .txt-c {padding: 30px 20px; }
+    .prices-card a {font-size: 14px;}
+    .reviews.tab-revs .container .more-about {top: 33px; right: 35px;}
+    .l-anchs .flex-2, .l-anchs .flex-2, .l-anchs .flex-2 {flex-direction: column !important;}
+    .l-anchs .flex-2 .n-card, .l-anchs .flex-2 .n-card, .l-anchs .flex-2 .n-card {width: 96%; margin-left: 15px; margin-right: 15px;}
+    .partners-block {margin: 0 !important;}
+    .tab-descr-down .flex .right.img-c .video__title a.play {top: 3% !important;}
+    .tab-prices {padding-top: 30px;}
+    .circle--list li {font-size: 14px !important;}
+    .someblue {padding-bottom: 5px;}
+    .cts-row {flex-direction: column; align-items: flex-start;}
+    .contacts .cts__block.f-phones a {position: relative; top: -22px; right: -15px}
+    .contacts .f-cts .fa {position: static !important;}
+    .cts__block.f-phones {padding-bottom: 0 !important;}
+    .cts-row .cts__block {height: fit-content !important;}
+    .cts-form .container {padding-top: 30px;}
+    .cts-form p {font-size: 14px;}
+    .cts-page-form .flex {flex-direction: column;}
+    .cts-page-form textarea {width: 100%; margin: 0 0 20px;}
+    .full-ctnt-width {max-height: 300px;}
+    .full-ctnt-width iframe {max-height: 300px;}
+    .cts-page-form .form-g label, .cts-page-form .form-g input, .cts-page-form textarea, .cts-page-form textarea {font-size: 14px; padding: 14px 15px 14px;}
+    .cts-page-form textarea::placeholder {font-size: 14px;}
+    .contacts .f-cts .cts__block {margin-bottom: 0;}
+    .contacts .socials li a .fa {font-size: 15px;}
+    .socials li:first-child {margin-left: 0;}
+    .doc-card-accord .faq__block .faq__txt ul li {padding-bottom: 5px;}
+    .qua-block:last-child {margin-bottom: 5px !important;}
+    .news-heading .first-par {padding-bottom: 10px;}
+    .n-cats-row .n-cat-item {font-size: 10px;}
+    .news-gallery .cat-pointer {font-size: 10px; padding: 7px 8px 5px; height: 27px;}
+    .news-gallery .flex {margin: 0; padding: 0 15px;}
+    .faq_price, .stock-container .action-prev {font-size: 16px;}
+    .faq_price.rub:after {top: 4px;}
+    .faq_price.tg:after, .stock-container .tg:after, .action-prev.tg:after {font-size: 16px; top: 3px}
+    .edd-value {font-size: 14px;}
+    .tab-descr .tab-descr-down ul {margin-bottom: 0; padding-bottom: 10px;}
+    .tab-descr-down .main-h {font-size: 16px !important;; line-height: 26px !important; margin-bottom: 5px !important;}
+    .tab-descr-down .tldr, .tab-descr-down ul {font-size: 14px !important;}
+    .tab-prices .calc-bar>.c-3 {padding-bottom: 5px !important;}
+    .tab-prices {padding-top: 20px !important;}
+    .flex-2 {padding: 0 10px;}
+} 
+
+@media only screen and (max-width : 600px) {
+    .prices .flex .prices-card {flex: 0 1 100%;}
+    .tab-prices .calc-bar {flex-direction: column; align-items: center;}
+    .tab-prices .calc-bar>* {width: 100%;}
+    .tab-prices .calc-bar .flex {justify-content: center; align-items: center !important;}
+    .tab-prices .calc-bar>* {padding: 15px 0 !important}
+    .tab-prices .calc-bar .c-1 p {padding-left: 10px;}
+    .tab-prices .calc-bar .c-2 .flex div {width: 203px}
+    .tab-prices .calc-bar .c-1 {padding-left: 0;}
+    .partners-block {justify-content: center;}
+    .partners-block .partners-card {flex: 0 1 40%;}
+} 
+
+@media only screen and (max-width : 533px) {
+    .news-gallery .flex {flex-direction: column;}
+    .txt-c .bolder20 {font-size: 16px;}
+    .n-card .tldr {padding-top: 10px;}
+    .modal form .btn {height: 40px}
+
+    .modal--leave-rev .btn.sm-btn {
+        padding-left: 30px !important;
+        padding-top: 15px !important;
+    }
+    .modal.modal__block .db-txt {font-size: 18px;}
+    .tabs-nav li a {font-size: 14px;}
+    .tabs-nav li {margin: 5px 10px 0 0;}
+    .i-about-text .more-about {top: 0}
+    .cts-form p {font-size: 12px;}
+    .l-anchs .n-card-full .txt-c {padding: 0 20px !important}
+} 
+
+@media only screen and (max-width : 440px) {
+    .n-card .tldr {height: 110px !important;}
+    button.btn.sm-btn {    
+        padding: 1px 35px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;}
+        .modal .btn.sm-btn {    
+            padding: 1px 35px !important;
+            display: flex;
+            justify-content: center;
+            align-items: center;}
+}
+
+
+@media only screen and (max-width : 380px) {
+    .partners-block .partners-card {flex: 0 1 100%;}
+    .reviews.tab-revs .container .more-about {font-size: 12px; top: 300px; right: 17px;}
+    .l-anchs .flex-spb a, .l-anchs .flex a {font-size: 12px;}
+    .l-anchs .flex-spb .main-h, .l-anchs .flex .main-h {margin-bottom: 0 !important;}
+    .l-anchs .flex-spb {padding-top: 25px !important; margin-bottom: 10px !important;}
+    .flex-2 .n-card .tldr {height: 112px !important}
+    button.btn.sm-btn {    
+        padding: 1px 35px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;}    
+        .modal .btn.sm-btn {    
+            padding: 1px 35px !important;
+            display: flex;
+            justify-content: center;
+            align-items: center;}
+}
+
+footer .container .faq__row  {display: none;}
+.reviews.tab-revs {position: relative;}
+.reviews.tab-revs .more-about {position: absolute; top: 98px; right: 90px}
+.l-anchs .flex-spb {padding-top:90px;}
